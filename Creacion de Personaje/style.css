@@ -108,7 +108,7 @@ body {
     padding-right: 1.8rem;
     padding-left: 1.8rem;
     border-right: 1px solid var(--border);
-    background: linear-gradient(180deg, rgb(59, 70, 92) 0%, transparent 80%);
+    background: linear-gradient(180deg, rgb(68, 97, 155) 0%, transparent 80%);
 }
 
 .index-list {
@@ -121,17 +121,15 @@ body {
     display: flex;
     align-items: center;
     gap: 0.8rem;
-    font-size: 1.05rem;
-    /* 🔥 más grande */
+    font-size: 1.5rem;
     padding: 0.85rem 1rem;
-    /* ↑ larger for hierarchy */
     font-weight: 400;
     letter-spacing: 0.02em;
     color: var(--text-muted);
     text-decoration: none;
     padding: 0.72rem 0.9rem;
     border-radius: var(--radius);
-    border: 1px solid transparent;
+    border: 1px solid rgb(158, 158, 158);
     position: relative;
     transition: background var(--transition), color var(--transition), transform var(--transition), border-color var(--transition);
 }
@@ -195,7 +193,7 @@ body {
     padding-left: 1.8rem;
     padding-right: 1.8rem;
     border-left: 1px solid var(--border);
-    background: linear-gradient(180deg, rgba(57, 187, 237, 0.06) 0%, transparent 80%);
+    background: linear-gradient(180deg, rgba(53, 136, 231, 0.596) 0%, transparent 80%);
 }
 
 .phases-list {
@@ -208,7 +206,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.75rem;
-    font-size: 1.05rem;
+    font-size: 1.4rem;
     padding: 0.8rem 1rem;
     /* ↑ larger for readability */
     font-weight: 400;
@@ -372,7 +370,7 @@ body {
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--text-muted);
-    background: #9c4373;
+    background: #2371d8;
     border-bottom: 1px solid var(--border);
     font-weight: 400;
 }
@@ -612,7 +610,7 @@ body {
         padding: 0.35rem 0.8rem;
         border: 1px solid var(--border);
         border-radius: 50px;
-        background: rgba(57, 187, 237, 0.05);
+        background: rgba(194, 195, 196, 0.5);
         transform: none !important;
     }
 
